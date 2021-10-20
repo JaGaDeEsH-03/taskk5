@@ -11,6 +11,7 @@ var boxCount = 9;
 var statusText = document.querySelector(".status");
 statusText.textContent = "Let's Play!!";
 
+const hello = () => "hellom World"
 
 easyBtn.addEventListener("click", function() {
     document.querySelector("h1").style.background = "rgb(233, 119, 119)";
